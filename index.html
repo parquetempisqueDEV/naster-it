@@ -649,17 +649,6 @@ select.edit-field{resize:none;height:auto;}
     <a class="nav-item" onclick="show('proximos')"><span class="icon">⚡</span>Próximos Pasos</a>
   </div>
   <div class="nav-section">
-    <div class="nav-label">Políticas IT</div>
-    <a class="nav-item" onclick="show('politicas')"><span class="icon">📜</span>Todas las Políticas</a>
-    <a class="nav-sub" onclick="showPolicy(0)">01 · Uso Aceptable</a>
-    <a class="nav-sub" onclick="showPolicy(1)">02 · Contraseñas y Accesos</a>
-    <a class="nav-sub" onclick="showPolicy(2)">03 · Activos Tecnológicos</a>
-    <a class="nav-sub" onclick="showPolicy(3)">04 · Seguridad de la Información</a>
-    <a class="nav-sub" onclick="showPolicy(4)">05 · Soporte y Helpdesk</a>
-    <a class="nav-sub" onclick="showPolicy(5)">06 · Videovigilancia y Acceso</a>
-    <a class="nav-sub" onclick="showPolicy(6)">07 · Adquisición de Tecnología</a>
-  </div>
-  <div class="nav-section">
     <div class="nav-label">Inducción</div>
     <a class="nav-item" onclick="show('induccion')"><span class="icon">🎓</span>Inducción IT</a>
     <a class="nav-sub" onclick="showInduccion('bienvenida')">Bienvenida al Departamento</a>
@@ -743,15 +732,10 @@ select.edit-field{resize:none;height:auto;}
           <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:12px;color:#c0392b;margin-bottom:10px;text-transform:uppercase;letter-spacing:.06em;">⚠ Desafíos Identificados</div>
           <div class="pol-item"><div class="pol-bullet"></div>Sin inventario tecnológico documentado</div>
           <div class="pol-item"><div class="pol-bullet"></div>Mezcla de equipos viejos y nuevos sin control</div>
-          <div class="pol-item"><div class="pol-bullet"></div>Sin políticas formales de ningún tipo</div>
           <div class="pol-item"><div class="pol-bullet"></div>ERP activo sin documentación de accesos</div>
-          <div class="pol-item" style="border-left:3px solid #c0392b;padding-left:8px;background:#fff5f5;border-radius:0 6px 6px 0;">
-            <div class="pol-bullet" style="background:#fadbd8;"><div style="width:6px;height:6px;background:#c0392b;border-radius:50%;"></div></div>
-            <div><strong style="color:#c0392b;">Sin firewall</strong> — Red corporativa expuesta. Adquisición de firewall Ruijie en proceso.</div>
-          </div>
-          <div class="pol-item" style="border-left:3px solid #c0392b;padding-left:8px;background:#fff5f5;border-radius:0 6px 6px 0;">
-            <div class="pol-bullet" style="background:#fadbd8;"><div style="width:6px;height:6px;background:#c0392b;border-radius:50%;"></div></div>
-            <div><strong style="color:#c0392b;">Enlace único con fallas frecuentes</strong> — En proceso de migración a doble enlace redundante (Telecable o CoopeGuanacaste).</div>
+          <div class="pol-item" style="border-left:3px solid #e67e22;padding-left:8px;background:#fef9f0;border-radius:0 6px 6px 0;">
+            <div class="pol-bullet" style="background:#fdebd0;"><div style="width:6px;height:6px;background:#e67e22;border-radius:50%;"></div></div>
+            <div><strong style="color:#e67e22;">Políticas IT en desarrollo</strong> — Se está trabajando activamente en la formalización de políticas corporativas de tecnología.</div>
           </div>
         </div>
         <div style="background:white;border-radius:14px;padding:20px;border:1px solid rgba(45,110,69,.1);">
@@ -762,6 +746,14 @@ select.edit-field{resize:none;height:auto;}
           <div class="pol-item"><div class="pol-bullet"></div>Dirección con nivel técnico intermedio</div>
           <div class="pol-item"><div class="pol-bullet"></div>Ecosistema Ruijie Reyee unificado en red</div>
           <div class="pol-item"><div class="pol-bullet"></div>CoopeGuanacaste como socio estratégico en fibra óptica</div>
+          <div class="pol-item" style="border-left:3px solid var(--leaf);padding-left:8px;background:#f0faf4;border-radius:0 6px 6px 0;">
+            <div class="pol-bullet"><div style="width:6px;height:6px;background:var(--leaf);border-radius:50%;"></div></div>
+            <div><strong style="color:var(--moss);">✅ Firewall Ruijie instalado</strong> — Red corporativa protegida con firewall del ecosistema unificado Ruijie.</div>
+          </div>
+          <div class="pol-item" style="border-left:3px solid var(--leaf);padding-left:8px;background:#f0faf4;border-radius:0 6px 6px 0;">
+            <div class="pol-bullet"><div style="width:6px;height:6px;background:var(--leaf);border-radius:50%;"></div></div>
+            <div><strong style="color:var(--moss);">✅ Enlace internet 1:1 — 500 Mbps simétricos</strong> — Nuevo enlace corporativo dedicado, estable y sin contención.</div>
+          </div>
         </div>
       </div>
     </div>
